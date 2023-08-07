@@ -9,6 +9,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 transformers = "^4.31.0"
+youtube-transcript-api = "^0.6.1"
+wikipedia = "^1.4.0"
+python-dotenv = "^1.0.0"
+azure-storage-blob = "^12.17.0"
+azure-search-documents = "^11.3.0"
 
 
 [tool.poetry.group.dev.dependencies]

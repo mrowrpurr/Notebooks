@@ -1,0 +1,2 @@
+The `northwind.sqlite3` SQLite3 port of Microsoft's "`Northwind`" database _(the example database originally distributed with [Microsoft Access](https://en.wikipedia.org/wiki/Microsoft_Access))_
+is provided by https://github.com/jpwhite3/northwind-SQLite3 under the [MIT License](https://github.com/jpwhite3/northwind-SQLite3/blob/main/LICENSE), `Copyright (c) 2016 JP White`

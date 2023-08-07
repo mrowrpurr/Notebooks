@@ -1085,6 +1085,17 @@ files = [
 ]
 
 [[package]]
+name = "instructorembedding"
+version = "1.0.1"
+description = "Text embedding tool"
+optional = false
+python-versions = "*"
+files = [
+    {file = "InstructorEmbedding-1.0.1-py2.py3-none-any.whl", hash = "sha256:c8d0c11d0bab3ede023104e1f3de6a3471bf71208cc272d1ef72bae771e7d1a3"},
+    {file = "InstructorEmbedding-1.0.1.tar.gz", hash = "sha256:886495ddd561bad57e8e7d5e8ee44c4243b1d80b538a25d32d37350f6082ee62"},
+]
+
+[[package]]
 name = "ipykernel"
 version = "6.25.0"
 description = "IPython Kernel for Jupyter"
@@ -3402,4 +3413,4 @@ requests = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "29cf44c66c1ab9c3b0db3a49c558898b672ff26c64349c9d5b74dcaac5f4e44e"
+content-hash = "1d63a3333e75751b5343847db442e828fabc92a3408c916576d3edc724493b22"

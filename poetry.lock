@@ -264,20 +264,19 @@ aio = ["aiohttp (>=3.0)"]
 
 [[package]]
 name = "azure-search-documents"
-version = "11.3.0"
+version = "11.4.0b6"
 description = "Microsoft Azure Cognitive Search Client Library for Python"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "azure-search-documents-11.3.0.zip", hash = "sha256:9a9690c49d1f6a2cc61db67e05f931a0de915647d4778cbbaf688082b4aaee30"},
-    {file = "azure_search_documents-11.3.0-py3-none-any.whl", hash = "sha256:0dcbd6b04c6eac97748124c00dcf1b14393fdffb4eb168eea55c9c47061362c5"},
+    {file = "azure-search-documents-11.4.0b6.zip", hash = "sha256:c9ebd7d99d3c7b879f48acad66141e1f50eae4468cfb8389a4b25d4c620e8df1"},
+    {file = "azure_search_documents-11.4.0b6-py3-none-any.whl", hash = "sha256:24ff85bf2680c36b38d8092bcbbe2d90699aac7c4a228b0839c0ce595a41628c"},
 ]
 
 [package.dependencies]
 azure-common = ">=1.1,<2.0"
-azure-core = ">=1.19.0,<2.0.0"
-msrest = ">=0.6.21"
-typing-extensions = ">=3.7.4.3"
+azure-core = ">=1.24.0,<2.0.0"
+isodate = ">=0.6.0"
 
 [[package]]
 name = "azure-storage-blob"
@@ -1780,27 +1779,6 @@ files = [
 ]
 
 [[package]]
-name = "msrest"
-version = "0.7.1"
-description = "AutoRest swagger generator Python client runtime."
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "msrest-0.7.1-py3-none-any.whl", hash = "sha256:21120a810e1233e5e6cc7fe40b474eeb4ec6f757a15d7cf86702c369f9567c32"},
-    {file = "msrest-0.7.1.zip", hash = "sha256:6e7661f46f3afd88b75667b7187a92829924446c7ea1d169be8c4bb7eeb788b9"},
-]
-
-[package.dependencies]
-azure-core = ">=1.24.0"
-certifi = ">=2017.4.17"
-isodate = ">=0.6.0"
-requests = ">=2.16,<3.0"
-requests-oauthlib = ">=0.5.0"
-
-[package.extras]
-async = ["aiodns", "aiohttp (>=3.0)"]
-
-[[package]]
 name = "multidict"
 version = "6.0.4"
 description = "multidict implementation"
@@ -1980,22 +1958,6 @@ files = [
     {file = "numpy-1.25.2-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:1b9735c27cea5d995496f46a8b1cd7b408b3f34b6d50459d9ac8fe3a20cc17bf"},
     {file = "numpy-1.25.2.tar.gz", hash = "sha256:fd608e19c8d7c55021dffd43bfe5492fab8cc105cc8986f813f8c3c048b38760"},
 ]
-
-[[package]]
-name = "oauthlib"
-version = "3.2.2"
-description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "oauthlib-3.2.2-py3-none-any.whl", hash = "sha256:8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca"},
-    {file = "oauthlib-3.2.2.tar.gz", hash = "sha256:9859c40929662bec5d64f34d01c99e093149682a3f38915dc0655d5a633dd918"},
-]
-
-[package.extras]
-rsa = ["cryptography (>=3.0.0)"]
-signals = ["blinker (>=1.4.0)"]
-signedtoken = ["cryptography (>=3.0.0)", "pyjwt (>=2.0.0,<3)"]
 
 [[package]]
 name = "openai"
@@ -2851,24 +2813,6 @@ urllib3 = ">=1.21.1,<3"
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
-
-[[package]]
-name = "requests-oauthlib"
-version = "1.3.1"
-description = "OAuthlib authentication support for Requests."
-optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-files = [
-    {file = "requests-oauthlib-1.3.1.tar.gz", hash = "sha256:75beac4a47881eeb94d5ea5d6ad31ef88856affe2332b9aafb52c6452ccf0d7a"},
-    {file = "requests_oauthlib-1.3.1-py2.py3-none-any.whl", hash = "sha256:2577c501a2fb8d05a304c09d090d6e47c306fef15809d102b327cf8364bddab5"},
-]
-
-[package.dependencies]
-oauthlib = ">=3.0.0"
-requests = ">=2.0.0"
-
-[package.extras]
-rsa = ["oauthlib[signedtoken] (>=3.0.0)"]
 
 [[package]]
 name = "rpds-py"
@@ -3762,4 +3706,4 @@ requests = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c87fc39119ce8125a93869f337023d4c961ef19aeb0ec78193783656cd3c35d7"
+content-hash = "f988c8be397c010e8dc92d236355a8e784afc4c448c1801abdda543a1cb4a4d3"
